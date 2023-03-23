@@ -1,0 +1,129 @@
+/* Center the hotel name */
+h1 {
+    text-align: center;
+  }
+  
+  /* Style the hotel image */
+  #hotel-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the hotel description */
+  #hotel-description {
+    margin-top: 30px;
+  }
+  
+  /* Style the room types */
+  .room-type {
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .room-type h3 {
+    margin-top: 0;
+  }
+  
+  .room-type p {
+    margin-bottom: 0;
+  }
+  
+  .room-type ul {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  
+  /* Style the room booking form */
+  .booking-form {
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .booking-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .booking-form input[type="text"], .booking-form select {
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .booking-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 0;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .booking-form button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Style the reviews */
+  .review {
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .review h3 {
+    margin-top: 0;
+  }
+  
+  .review p {
+    margin-bottom: 0;
+  }
+  
+  .review .rating {
+    margin-top: 10px;
+  }
+  
+  .review .rating i {
+    color: gold;
+  }
+  
+  /* Style the footer */
+  footer {
+    margin-top: 30px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Media queries */
+  @media screen and (min-width: 768px) {
+    .room-type {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    
+    .room-type:nth-child(odd) {
+      margin-right: 10px;
+    }
+    
+    .room-type:nth-child(even) {
+      margin-left: 10px;
+    }
+  }
+ 
+ 
+    .custom-width {
+        width: 200px;
+      }

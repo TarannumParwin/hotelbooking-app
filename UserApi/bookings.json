@@ -1,0 +1,82 @@
+[
+    {
+        "id":"ab36g",
+    "hotel_name": "Example Hotel",
+    "location": "New York City",
+    "contact": {
+    "phone": "(555) 123-4567",
+    "email": "info@examplehotel.com"
+    },
+    "amenities": [
+    "Free Wi-Fi",
+    "Swimming pool",
+    "Fitness center",
+    "Restaurant"
+    ],
+    "room_types": [
+    "Standard Room",
+    "Deluxe Room",
+    "Suite"
+    ]
+    },
+    {
+    "room_type": "Standard Room",
+    "room_size": "300 sq. ft.",
+    "room_number": "101",
+    "max_occupancy": 2,
+    "price_per_night": 150.00
+    },
+    
+    
+    {
+    "room_type": "Standard Room",
+    "start_date": "2023-04-01",
+    "end_date": "2023-04-08",
+    "available_rooms": 5,
+    "min_stay": 2
+    },
+    
+    
+    {
+    "guest_name": "John Doe",
+    "guest_email": "johndoe@example.com",
+    "guest_phone": "(555) 123-4567",
+    "room_type": "Standard Room",
+    "checkin_date": "2023-04-03",
+    "checkout_date": "2023-04-07",
+    "guests": 2,
+    "special_requests": "Extra towels"
+    },
+    
+    
+    {
+    "payment_method": "credit_card",
+    "card_number": "**** **** **** 1234",
+    "expiration_date": "06/24",
+    "billing_address": "123 Main St, New York, NY 10001"
+    },
+    
+  
+    {
+    "cancellation_conditions": "Cancel up to 24 hours before check-in with no penalty",
+    "cancellation_fee": 50.00
+    },
+    
+    
+    {
+    "room_type": "Standard Room",
+    "hotel_name": "Example Hotel",
+    "guest_name": "Jane Smith",
+    "rating": 4.5,
+    "review_text": "Great location and comfortable room"
+    },
+    
+    
+    {
+    "room_type": "Standard Room",
+    "hotel_name": "Example Hotel",
+    "image_url": "https://examplehotel.com/images/standard-room.jpg",
+    "video_url": "https://examplehotel.com/videos/standard-room.mp4"
+    }
+]
+    
